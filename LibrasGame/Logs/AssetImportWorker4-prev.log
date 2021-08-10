@@ -1,0 +1,1555 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/danie/Documents/AULAS/Fase 8/Tópicos/Game/LibrasGame/LibrasGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+57733
+Successfully changed project path to: C:/Users/danie/Documents/AULAS/Fase 8/Tópicos/Game/LibrasGame/LibrasGame
+C:/Users/danie/Documents/AULAS/Fase 8/Tópicos/Game/LibrasGame/LibrasGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 119.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danie/Documents/AULAS/Fase 8/Tópicos/Game/LibrasGame/LibrasGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   
+    VRAM:     4033 MB
+    Driver:   22.20.16.4815
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004248 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2948ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.357 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3360ms)
+		BeginReloadAssembly (393ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2811ms)
+			LoadAssemblies (481ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (921ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (895ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 4.719700 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.113800 ms MarkObjects: 4.169200 ms  DeleteObjects: 0.182200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.2d.animation/Tests
+  artifactKey: Guid(04094496a840e4b66a9207270b8d6e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests using Guid(04094496a840e4b66a9207270b8d6e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390658ce98bbc23b0b7e6b80dce8437b') in 0.256018 seconds 
+  Import took 0.409546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001394 seconds.
+  path: Packages/com.unity.2d.common/package.json
+  artifactKey: Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.common/package.json using Guid(68f1917ec3cac45b080c26153375c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdb1d9f21cd3ec447b7f1a49f5c4f7c') in 0.484304 seconds 
+  Import took 0.570076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000891 seconds.
+  path: Packages/com.unity.2d.animation/Runtime
+  artifactKey: Guid(b5e13ffaa298c414091b9cdb6e0c2b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Runtime using Guid(b5e13ffaa298c414091b9cdb6e0c2b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df76b3ce2d3ff60bb7adfd7bece8090') in 0.079506 seconds 
+  Import took 0.152950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fe188d5ff8e83b9163b5b67c2a4b8c') in 0.015942 seconds 
+  Import took 0.045057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.746808 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor
+  artifactKey: Guid(b9da5ea5902f0ed42a2acecf3332a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor using Guid(b9da5ea5902f0ed42a2acecf3332a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366fc8f81016b562d08fb67e21433736') in 0.035004 seconds 
+  Import took 0.111419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011047 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef
+  artifactKey: Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef using Guid(ba283300490772f4f8d1f69efcb7c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f25b57931543022edf0414fc40f551') in 0.186174 seconds 
+  Import took 0.232748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.047922 seconds.
+  path: Packages/com.unity.2d.animation/Tests/Editor/PlaceholderTests.cs
+  artifactKey: Guid(fdb3ad5d765ec4a49906a82ea1fe3d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Tests/Editor/PlaceholderTests.cs using Guid(fdb3ad5d765ec4a49906a82ea1fe3d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baad79e95313e3cb06f0444ac53273a') in 1.966219 seconds 
+  Import took 2.110187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.614203 seconds.
+  path: Packages/com.unity.mathematics/package.json
+  artifactKey: Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.mathematics/package.json using Guid(d34d0af25c21141a98c0cf3c0066444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421048e766e0d8e0b608a2d58a809366') in 0.034371 seconds 
+  Import took 0.074073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.181354 seconds.
+  path: Packages/com.unity.2d.tilemap/package.json
+  artifactKey: Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/package.json using Guid(51797d68d3132bb419217a229e09fc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22520fb1654722663eb25abdaed23609') in 0.070185 seconds 
+  Import took 0.125127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.582797 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef
+  artifactKey: Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef using Guid(3a9781db4804a9945b9883f3a7c46d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86df9f85098986b5c3bc9f164a1f4748') in 0.022526 seconds 
+  Import took 0.065489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.240301 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/CreateTileFromPaletteAttribute.cs
+  artifactKey: Guid(241898342fd2d2d478d8d74aff380666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/CreateTileFromPaletteAttribute.cs using Guid(241898342fd2d2d478d8d74aff380666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6087fdb7866781e7bcaa99db334cca42') in 0.012721 seconds 
+  Import took 0.055838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008473 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/CreateTileFromPaletteAttribute.cs
+  artifactKey: Guid(241898342fd2d2d478d8d74aff380666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/CreateTileFromPaletteAttribute.cs using Guid(241898342fd2d2d478d8d74aff380666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6087fdb7866781e7bcaa99db334cca42') in 0.031847 seconds 
+  Import took 0.064178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.261742 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/GridBrush.cs
+  artifactKey: Guid(4009bdfbd908ccf41a101be04ed6567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/GridBrush.cs using Guid(4009bdfbd908ccf41a101be04ed6567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f34e1adca1475dbfee173d635ff77b') in 0.022755 seconds 
+  Import took 0.068197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.640822 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/AssemblyInfo.cs
+  artifactKey: Guid(b870da3ede4ee144d8631c9ef0a3a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/AssemblyInfo.cs using Guid(b870da3ede4ee144d8631c9ef0a3a66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c91c260a9231493f1df70a0f830ce9b') in 0.018244 seconds 
+  Import took 0.046239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.476845 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu
+  artifactKey: Guid(b294a6b01c40240e1b1677cd56223441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu using Guid(b294a6b01c40240e1b1677cd56223441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7db05416d9a02fbd6a24e777fd5997') in 0.021964 seconds 
+  Import took 0.069172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.403087 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/GameObjectCreation.cs
+  artifactKey: Guid(93344cd78b3de491bbc8a90604acb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/GameObjectCreation.cs using Guid(93344cd78b3de491bbc8a90604acb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70754148038dc5e3d3114be671ac5a3a') in 0.014815 seconds 
+  Import took 0.036088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.557209 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/DefaultAssetCreation.cs
+  artifactKey: Guid(1407207e0ba5c48f3a24bdbea0fa84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu/DefaultAssetCreation.cs using Guid(1407207e0ba5c48f3a24bdbea0fa84b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347f9bfb1a52ab08897591a0dec6b98') in 0.025068 seconds 
+  Import took 0.063328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.015385 seconds.
+  path: Packages/com.unity.ide.visualstudio
+  artifactKey: Guid(9db636ca49aa246019dd93b7c8b689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio using Guid(9db636ca49aa246019dd93b7c8b689f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ec95a5506f2bdeeee79941468489e5') in 0.019044 seconds 
+  Import took 0.055666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.627212 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce01f8b13dd649e633a5cb502b15c5a7') in 0.047305 seconds 
+  Import took 0.079423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.154526 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor
+  artifactKey: Guid(4a707af59e3522d43afe34dfc4429b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor using Guid(4a707af59e3522d43afe34dfc4429b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25d0ef153b012297fad9fd32b854b41') in 0.015106 seconds 
+  Import took 0.033405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082373 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef
+  artifactKey: Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef using Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c166c5239c9f94d6347c9b443d9b01') in 0.009432 seconds 
+  Import took 0.043596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.304936 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor/AssemblyInfo.cs
+  artifactKey: Guid(d791d407901442e49862d3aa783ce8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/AssemblyInfo.cs using Guid(d791d407901442e49862d3aa783ce8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834cc35b1fce1fe50c90b0a33466b3f9') in 0.012700 seconds 
+  Import took 0.062250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.913667 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor/SolutionParser.cs
+  artifactKey: Guid(fbbb1ee655846b043baf6c3502b5ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/SolutionParser.cs using Guid(fbbb1ee655846b043baf6c3502b5ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbbd005e99094a98a5e7d5026a93cfa') in 0.044570 seconds 
+  Import took 0.094124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.330716 seconds.
+  path: Packages/com.unity.ide.visualstudio/Editor/COMIntegration
+  artifactKey: Guid(36422aa067e092e45b9820da2ee3e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/Editor/COMIntegration using Guid(36422aa067e092e45b9820da2ee3e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eff08c7ed4be8db048861e58d7aab9') in 0.017572 seconds 
+  Import took 0.039043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.175489 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d1f12f0f4420a8b9dea50868bbb5d0') in 0.206447 seconds 
+  Import took 0.237685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.761017 seconds.
+  path: Packages/com.unity.ugui/Editor
+  artifactKey: Guid(bee384ad5b4d1a843a018082e7db53cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Editor using Guid(bee384ad5b4d1a843a018082e7db53cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6882089124fa3e3e4daf11573b2a9a') in 0.015202 seconds 
+  Import took 0.054632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.413536 seconds.
+  path: Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef
+  artifactKey: Guid(343deaaf83e0cee4ca978e7df0b80d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef using Guid(343deaaf83e0cee4ca978e7df0b80d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6729f57df2b31e1ee16d37afa663e95') in 0.013627 seconds 
+  Import took 0.034807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.909259 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.013893 seconds 
+  Import took 0.067680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.833622 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c8148cccc57ed344b824c201399c4ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c8148cccc57ed344b824c201399c4ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eec7a24a55635762802c8d48da0187') in 0.020111 seconds 
+  Import took 0.062840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.656462 seconds.
+  path: Assets/Tile
+  artifactKey: Guid(a5581b979e67dfc4c9898815727ce175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile using Guid(a5581b979e67dfc4c9898815727ce175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384bcf5c9547c0423a30da9edb5d936b') in 0.018656 seconds 
+  Import took 0.025560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/Tile
+  artifactKey: Guid(a5581b979e67dfc4c9898815727ce175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile using Guid(a5581b979e67dfc4c9898815727ce175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384bcf5c9547c0423a30da9edb5d936b') in 0.012367 seconds 
+  Import took 0.019978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1536.246914 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bd3f7a37d152473ce54198c7209ac9') in 1.786762 seconds 
+  Import took 1.848323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.314136 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c097db9a66806e7bc06bd23f55aa6a') in 0.040254 seconds 
+  Import took 0.048531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.648519 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db3f19ab80252122257b402651246e') in 0.493143 seconds 
+  Import took 0.550930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.726721 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a652b7de53f17d593ba8b217c02a27c') in 0.258505 seconds 
+  Import took 0.332495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 348.808162 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38c09dfa3c542f29937c94b26952a20') in 0.729048 seconds 
+  Import took 0.833936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.346757 seconds.
+  path: Assets/Tile/Map
+  artifactKey: Guid(cfb422640865a7f458c09904f794ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map using Guid(cfb422640865a7f458c09904f794ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbec2610b5717f43159ae490f58efe03') in 0.023531 seconds 
+  Import took 0.077307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.874208 seconds.
+  path: Assets/Tile/Map/Ardentryst-Butterfly.png
+  artifactKey: Guid(f3371ed70276e174392e298b338ef47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Butterfly.png using Guid(f3371ed70276e174392e298b338ef47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e881351ea14e8fdb587cc9064c3e82') in 0.065080 seconds 
+  Import took 0.098095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_ground2.png
+  artifactKey: Guid(58c9f385572b25f45b86e7cafe1b1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_ground2.png using Guid(58c9f385572b25f45b86e7cafe1b1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004a85b7f2c6f594a1f4a9f9ccf08da5') in 0.057569 seconds 
+  Import took 0.077347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_wright.png
+  artifactKey: Guid(6608c166d98b05b4982e034b21332e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_wright.png using Guid(6608c166d98b05b4982e034b21332e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bf093c91b7913b6a867cdc1663a8f5') in 0.126685 seconds 
+  Import took 0.131351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtc1.png
+  artifactKey: Guid(093dcfcfe86202c44b21244242c3acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtc1.png using Guid(093dcfcfe86202c44b21244242c3acd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ef0277708c134160b793a593af0848') in 0.075612 seconds 
+  Import took 0.085981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_ground3.png
+  artifactKey: Guid(aa4141bdef881d545b15ba9c0fd22702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_ground3.png using Guid(aa4141bdef881d545b15ba9c0fd22702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f0149aa4f409260ef3fa388a889de6') in 0.038497 seconds 
+  Import took 0.047107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Tile/Map/Ardentryst-ButterflyB.png
+  artifactKey: Guid(a3b1232b3087d284a916080de1082883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-ButterflyB.png using Guid(a3b1232b3087d284a916080de1082883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a319e197d4b409bba356a6ccd60fd616') in 0.048110 seconds 
+  Import took 0.054664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavejl.png
+  artifactKey: Guid(6b85ea11daced824898ff4baa2385a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavejl.png using Guid(6b85ea11daced824898ff4baa2385a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f857b5aee0f468f779d353e5bcf47a') in 0.051441 seconds 
+  Import took 0.061307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavewr2.png
+  artifactKey: Guid(dce6759677ac71040a53ccf59fdae25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavewr2.png using Guid(dce6759677ac71040a53ccf59fdae25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feed08dedfb5a9e8590b9e1250e87edd') in 0.053704 seconds 
+  Import took 0.060929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Tile/Map/Ardentryst-ButterflyC.png
+  artifactKey: Guid(e0c2edcab8a117c4bb8b332ea15607bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-ButterflyC.png using Guid(e0c2edcab8a117c4bb8b332ea15607bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a5727b150e99e401dde89e91a8a59c') in 0.053694 seconds 
+  Import took 0.065095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirt.png
+  artifactKey: Guid(9fb47c87656e9ca4da845b1e2282df2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirt.png using Guid(9fb47c87656e9ca4da845b1e2282df2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6493393254c3d207aa836361dab2ceb') in 0.076774 seconds 
+  Import took 0.084114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tile/Map/Ardentryst-Butterfly.png
+  artifactKey: Guid(f3371ed70276e174392e298b338ef47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Butterfly.png using Guid(f3371ed70276e174392e298b338ef47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e881351ea14e8fdb587cc9064c3e82') in 0.027523 seconds 
+  Import took 0.037453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavefloor1.png
+  artifactKey: Guid(8efe7407485b9c24e8febf4dde5d8c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavefloor1.png using Guid(8efe7407485b9c24e8febf4dde5d8c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cd1e9d497f9ba6e1ec47cf1e68ae48') in 0.082198 seconds 
+  Import took 0.087245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_floor1.png
+  artifactKey: Guid(5b5b9635fd65f3f4db28e142283c6902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_floor1.png using Guid(5b5b9635fd65f3f4db28e142283c6902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f494e640d0dd7eaec38f860eded3c72') in 0.049646 seconds 
+  Import took 0.054675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavefloor3.png
+  artifactKey: Guid(88975e88cb8ad3148a8b48eefe08a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavefloor3.png using Guid(88975e88cb8ad3148a8b48eefe08a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c99620f6ddad7c972ae7e8c438352c') in 0.067457 seconds 
+  Import took 0.072883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_wleft.png
+  artifactKey: Guid(a6f6bf39677819244a2b969eb6b6fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_wleft.png using Guid(a6f6bf39677819244a2b969eb6b6fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16b381169073af78ca6c948b9034183') in 0.026398 seconds 
+  Import took 0.033212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_hr_m_l.png
+  artifactKey: Guid(e0af3415db7e6134d8326ae35989f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_hr_m_l.png using Guid(e0af3415db7e6134d8326ae35989f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c585cb11ba1ab2671e1865ca13213b') in 0.050881 seconds 
+  Import took 0.056469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_floor4.png
+  artifactKey: Guid(83a86d8d31d7a45449dfde5aed7ffa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_floor4.png using Guid(83a86d8d31d7a45449dfde5aed7ffa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9e3a551b2fc910e4cd6b09aaa4e8da') in 0.033771 seconds 
+  Import took 0.038237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_wfleft.png
+  artifactKey: Guid(80d2608f9cca49e419fa2d35ab6d3cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_wfleft.png using Guid(80d2608f9cca49e419fa2d35ab6d3cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e576ca3c73ed658e4f8441fdf0100e') in 0.032898 seconds 
+  Import took 0.037869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_floor_edge_right.png
+  artifactKey: Guid(56d3d5e10187447439684ed7ffd57152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_floor_edge_right.png using Guid(56d3d5e10187447439684ed7ffd57152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627ddb3c6c192570dc74dd78ec43f59b') in 0.028524 seconds 
+  Import took 0.035774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtc2.png
+  artifactKey: Guid(3fd53b7e385d7614097f77bd97bcb85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtc2.png using Guid(3fd53b7e385d7614097f77bd97bcb85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb25a6ce2319b324c2ab1fbc0bb4e6e') in 0.036187 seconds 
+  Import took 0.042225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtb2.png
+  artifactKey: Guid(30317bb2ec143eb4f9f00831a0391728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtb2.png using Guid(30317bb2ec143eb4f9f00831a0391728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455cc4066a394ad766691bada0e61150') in 0.027842 seconds 
+  Import took 0.033293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavefloor2.png
+  artifactKey: Guid(d38e12e4ac6905e428136987aae3ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavefloor2.png using Guid(d38e12e4ac6905e428136987aae3ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70cb1429ed698251f6183fa10667dc1') in 0.064707 seconds 
+  Import took 0.070620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavewl.png
+  artifactKey: Guid(40a8fd91f11813c43b7a981f3a25a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavewl.png using Guid(40a8fd91f11813c43b7a981f3a25a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e569122961b481ae9ad347bb1190f85') in 0.049792 seconds 
+  Import took 0.085482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavewl2.png
+  artifactKey: Guid(36c19c6f15be7b340bcfc6ddff07b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavewl2.png using Guid(36c19c6f15be7b340bcfc6ddff07b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a53a10b39726568a2494017d62cb68') in 0.063274 seconds 
+  Import took 0.075696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Tile/Map/Ardentryst-ButterflyC2.png
+  artifactKey: Guid(839cfc987254e2d468e67bfafbb1ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-ButterflyC2.png using Guid(839cfc987254e2d468e67bfafbb1ca42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e3a922a62b0f04f62e370ef9601b6c') in 0.070778 seconds 
+  Import took 0.076595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_floor2.png
+  artifactKey: Guid(9df2be0d8924e9e4fbfb502f1c052631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_floor2.png using Guid(9df2be0d8924e9e4fbfb502f1c052631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c5ee2318088aa4a1247f819799ce8') in 0.027234 seconds 
+  Import took 0.033851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001260 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavewr.png
+  artifactKey: Guid(f2698b7fbca1118469f85816d8eabbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavewr.png using Guid(f2698b7fbca1118469f85816d8eabbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b050ce32bd53c1dbd5fa0f5f868fe0f') in 0.032357 seconds 
+  Import took 0.039053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavetl.png
+  artifactKey: Guid(1ca857d432bb0e541b54da2f66ef7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavetl.png using Guid(1ca857d432bb0e541b54da2f66ef7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a69146a64ee277acc4561f2e5803ccc') in 0.033267 seconds 
+  Import took 0.039142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtb.png
+  artifactKey: Guid(f033a855d2ce26342b814e1f70dff566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtb.png using Guid(f033a855d2ce26342b814e1f70dff566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb635c18d73a9e09c99737822dc22bbb') in 0.026154 seconds 
+  Import took 0.030972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_hr_r.png
+  artifactKey: Guid(280d1d8652c63d748ad0ec1d83f5953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_hr_r.png using Guid(280d1d8652c63d748ad0ec1d83f5953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926c4cb0929c0d6fc1374e73d2cc0417') in 0.195966 seconds 
+  Import took 0.207068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000970 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_hr_l.png
+  artifactKey: Guid(d22f4f96c932f714dba3c99cdbca3e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_hr_l.png using Guid(d22f4f96c932f714dba3c99cdbca3e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03dab29b66e30b9ff44061d52d1ae2e') in 0.094778 seconds 
+  Import took 0.105756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Tile/Map/Ardentryst-ButterflyB2.png
+  artifactKey: Guid(41de8d12ce49da04aaa892a836d61257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-ButterflyB2.png using Guid(41de8d12ce49da04aaa892a836d61257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c81d37267cd03466236ad97888b103') in 0.026839 seconds 
+  Import took 0.033222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_wfright.png
+  artifactKey: Guid(867ccfdff7018774b818ad39b8dae346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_wfright.png using Guid(867ccfdff7018774b818ad39b8dae346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330d00f7d43a629e2dcca5513435cb20') in 0.028388 seconds 
+  Import took 0.034751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavetr.png
+  artifactKey: Guid(9360cea69e56e4543a6ab7b788a816a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavetr.png using Guid(9360cea69e56e4543a6ab7b788a816a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274af3135dcd251c313f51e58d6005fe') in 0.057048 seconds 
+  Import took 0.065975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_hr_m_r.png
+  artifactKey: Guid(9c4876e6cba44cb4482e1bf926f7e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_hr_m_r.png using Guid(9c4876e6cba44cb4482e1bf926f7e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52db89bd214c7856b23e6a773b458382') in 0.050057 seconds 
+  Import took 0.061390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/Tile/Map/Ardentryst-Butterfly2.png
+  artifactKey: Guid(a0943f80a4999084d967948c3abd4a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Butterfly2.png using Guid(a0943f80a4999084d967948c3abd4a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be1e4a153673d49527449da2dba0f3') in 0.038598 seconds 
+  Import took 0.047711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtc3.png
+  artifactKey: Guid(14c2ae9e31ed13845894cd734d95c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtc3.png using Guid(14c2ae9e31ed13845894cd734d95c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce11e0d189aa1bec8a308f1a2d7196b') in 0.039996 seconds 
+  Import took 0.044360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Tile/Map/Ardentryst-cavejr.png
+  artifactKey: Guid(fd3ee453a9dc49745958f233f5365507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cavejr.png using Guid(fd3ee453a9dc49745958f233f5365507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee3593b5e09d4ef8b1b5264f1623f6d') in 0.042358 seconds 
+  Import took 0.047866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Tile/Map/Ardentryst-caveice.png
+  artifactKey: Guid(e2ee90743f8a4ea40b92f013abe9b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-caveice.png using Guid(e2ee90743f8a4ea40b92f013abe9b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47db4d5fbd9802f795e0de98df34529d') in 0.030702 seconds 
+  Import took 0.036388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_floor3.png
+  artifactKey: Guid(bce7409a7ba26ba4d8e4adc54c7a1a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_floor3.png using Guid(bce7409a7ba26ba4d8e4adc54c7a1a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869fd3e459b8f72f4d515fe27c756d50') in 0.060222 seconds 
+  Import took 0.068759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_ground1.png
+  artifactKey: Guid(8ee9f31b44d77d54aa0bdb53d4eac4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_ground1.png using Guid(8ee9f31b44d77d54aa0bdb53d4eac4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f6996373219ae6a0c1a91bbc328230') in 0.093562 seconds 
+  Import took 0.105012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/Tile/Map/Ardentryst-cstl_floor_edge_left.png
+  artifactKey: Guid(3468a15f2e9aaf64cb943069203cdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-cstl_floor_edge_left.png using Guid(3468a15f2e9aaf64cb943069203cdcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f1350d5e47c94f77f256178db0a3d5') in 0.040134 seconds 
+  Import took 0.051593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.893902 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtc4.png
+  artifactKey: Guid(7de3c0b02d6eb97488179db6f125388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtc4.png using Guid(7de3c0b02d6eb97488179db6f125388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42361e883a7253756ce06182401716c') in 0.022080 seconds 
+  Import took 0.029192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtmgrass.png
+  artifactKey: Guid(f0c707adcc54f184c85c5920ac0a668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtmgrass.png using Guid(f0c707adcc54f184c85c5920ac0a668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb11d7d4e47a16342e714944246f7a4') in 0.047978 seconds 
+  Import took 0.053739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtl_bedge.png
+  artifactKey: Guid(c753cfeaf1a425947900cc7e72a3c6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtl_bedge.png using Guid(c753cfeaf1a425947900cc7e72a3c6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b3f84943b8507f783c53d1e621cb81') in 0.037488 seconds 
+  Import took 0.041751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtc4.png
+  artifactKey: Guid(7de3c0b02d6eb97488179db6f125388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtc4.png using Guid(7de3c0b02d6eb97488179db6f125388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42361e883a7253756ce06182401716c') in 0.016019 seconds 
+  Import took 0.021986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtl_edge2.png
+  artifactKey: Guid(7d6854f1297823b489c847c68ba2a005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtl_edge2.png using Guid(7d6854f1297823b489c847c68ba2a005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311033b7a5d05c7f99b3c7fa633cff9c') in 0.059716 seconds 
+  Import took 0.068319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtr_edge2.png
+  artifactKey: Guid(57e0699103b81ce44b74723d0c6baddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtr_edge2.png using Guid(57e0699103b81ce44b74723d0c6baddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeb03c10bf68bf0a338dbc1a257d45f') in 0.084646 seconds 
+  Import took 0.097222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtl_edge1.png
+  artifactKey: Guid(c66dfc57fd5c6f44383a782e6caca51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtl_edge1.png using Guid(c66dfc57fd5c6f44383a782e6caca51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf55e4a4158ad0e34a727c77db8a6bb') in 0.036283 seconds 
+  Import took 0.046812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtr_bedge.png
+  artifactKey: Guid(fbbc5c5cb9aefc04ba02b193f9a58db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtr_bedge.png using Guid(fbbc5c5cb9aefc04ba02b193f9a58db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c85e4c99242a4f916b184d635ea581') in 0.025861 seconds 
+  Import took 0.031809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirttop.png
+  artifactKey: Guid(32535bf74b7ded64ea9225180b68da2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirttop.png using Guid(32535bf74b7ded64ea9225180b68da2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a769bdeb723bbe4faea9298f7252a2d') in 0.029754 seconds 
+  Import took 0.034882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tile/Map/Ardentryst-exitsign.png
+  artifactKey: Guid(4f326ef42dc10b3439ca0418b7acbf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-exitsign.png using Guid(4f326ef42dc10b3439ca0418b7acbf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354c016d3f09d94219af874724d22446') in 0.030592 seconds 
+  Import took 0.037006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Tile/Map/Ardentryst-dirtr_edge1.png
+  artifactKey: Guid(91bb64e2ffb812746b6a6776fb79e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-dirtr_edge1.png using Guid(91bb64e2ffb812746b6a6776fb79e5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96af10d7ec4e74c2406abceff03528f') in 0.038062 seconds 
+  Import took 0.046120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.176836 seconds.
+  path: Assets/Tile/Map/Ardentryst-grass.png
+  artifactKey: Guid(cb2e8c216e8fe604ea2f597adb7286a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grass.png using Guid(cb2e8c216e8fe604ea2f597adb7286a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092eff16a847c29730ba4c049fad42da') in 0.024133 seconds 
+  Import took 0.030053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassc5.png
+  artifactKey: Guid(4ea9b346e88121b4482604b345b12f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassc5.png using Guid(4ea9b346e88121b4482604b345b12f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21092dc099e12c27e8358dc39c671af') in 0.029324 seconds 
+  Import took 0.034869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassl_edge.png
+  artifactKey: Guid(8fd89a38a5ae31e4b84acd4f3990a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassl_edge.png using Guid(8fd89a38a5ae31e4b84acd4f3990a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb02976cd430395d989eb42ba2c1157') in 0.029126 seconds 
+  Import took 0.033767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassc4.png
+  artifactKey: Guid(ee9b866d91072a0438ec55e67862df6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassc4.png using Guid(ee9b866d91072a0438ec55e67862df6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a106b33bd9342ea7c6ff30cf6458db') in 0.036745 seconds 
+  Import took 0.042446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassc3.png
+  artifactKey: Guid(f93877117f7aefb4d8928f7181e9f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassc3.png using Guid(f93877117f7aefb4d8928f7181e9f5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba06cef0f883f48f8a3918eaf7a3ed3') in 0.028801 seconds 
+  Import took 0.034192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Tile/Map/Ardentryst-grass_dirt_r.png
+  artifactKey: Guid(904a3a39ff2749743ba151dd9373c3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grass_dirt_r.png using Guid(904a3a39ff2749743ba151dd9373c3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c53b5ca40f43f30762319145c5fc181') in 0.039783 seconds 
+  Import took 0.045476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassc1.png
+  artifactKey: Guid(58b04bd5ec17eeb4b935daaef53118fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassc1.png using Guid(58b04bd5ec17eeb4b935daaef53118fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d303616fa872b83a66f33da77067cca') in 0.036643 seconds 
+  Import took 0.041407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tile/Map/Ardentryst-grass_dirt_l.png
+  artifactKey: Guid(4c1f82d928d4d6a4f9602e33749384b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grass_dirt_l.png using Guid(4c1f82d928d4d6a4f9602e33749384b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07527ab412a620bcedbd97d00dde6f95') in 0.154807 seconds 
+  Import took 0.162897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassmdirt.png
+  artifactKey: Guid(d4be43a54a914c74f841152c73ebe78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassmdirt.png using Guid(d4be43a54a914c74f841152c73ebe78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51c6cc368641b07330f46f7d1dfe4f8') in 0.052193 seconds 
+  Import took 0.083283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tile/Map/Ardentryst-Lever2.png
+  artifactKey: Guid(bd0d4771a2697954daabb44f0a06edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Lever2.png using Guid(bd0d4771a2697954daabb44f0a06edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212bb0f8d82ecae1695cc337b2cb6573') in 0.028269 seconds 
+  Import took 0.035326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Tile/Map/Ardentryst-L_HR2.png
+  artifactKey: Guid(aafa73a9920586e4abd50f5c3573f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-L_HR2.png using Guid(aafa73a9920586e4abd50f5c3573f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38776814d4f1a8ce2fe7ab35b8d94131') in 0.065882 seconds 
+  Import took 0.071354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Tile/Map/Ardentryst-Obelisk2_Snow.png
+  artifactKey: Guid(cc19b06f4521b22499ad22bb61df21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Obelisk2_Snow.png using Guid(cc19b06f4521b22499ad22bb61df21ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dece880977fae5a0c18e8b33fc41c145') in 0.031710 seconds 
+  Import took 0.036635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Tile/Map/Ardentryst-R_HR1.png
+  artifactKey: Guid(426b7d00b47cfea4499d79b6e872617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-R_HR1.png using Guid(426b7d00b47cfea4499d79b6e872617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010ba49bb3bd9ef2fa3c78080bdc037b') in 0.042838 seconds 
+  Import took 0.046969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Tile/Map/Ardentryst-Obelisk_Snow.png
+  artifactKey: Guid(e495f3e2e793acf4183e341d59657ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Obelisk_Snow.png using Guid(e495f3e2e793acf4183e341d59657ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aab4d9d5d0b3fda81edcc087cb842a') in 0.045588 seconds 
+  Import took 0.051407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Tile/Map/Ardentryst-Obelisk.png
+  artifactKey: Guid(f6e9c2042485f0f4781cc1033c91c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Obelisk.png using Guid(f6e9c2042485f0f4781cc1033c91c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87b27683fd8739aa8cd4018c80394e6') in 0.028286 seconds 
+  Import took 0.035648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Tile/Map/Ardentryst-R_R.png
+  artifactKey: Guid(1e6297d7db1d4244d8f0c55b2394d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-R_R.png using Guid(1e6297d7db1d4244d8f0c55b2394d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60b2b04f4d58ff4d8b2f8099c24e402') in 0.037420 seconds 
+  Import took 0.042700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Tile/Map/Ardentryst-L_R.png
+  artifactKey: Guid(aa1915a85d72f3c4e9d628665e248748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-L_R.png using Guid(aa1915a85d72f3c4e9d628665e248748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f4162e5dea70146e807b344dd32d28') in 0.054881 seconds 
+  Import took 0.062364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Tile/Map/Ardentryst-Pit.png
+  artifactKey: Guid(f477c731eef1a994da456ebcaa0eea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Pit.png using Guid(f477c731eef1a994da456ebcaa0eea1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e76d91232a660db40be6ff293f4f75') in 0.065812 seconds 
+  Import took 0.071765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassr_edge.png
+  artifactKey: Guid(ed8160fb8dafe804b8e8ca1a369c19cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassr_edge.png using Guid(ed8160fb8dafe804b8e8ca1a369c19cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0637e466597edb7c7a9b2dddfab0252') in 0.037120 seconds 
+  Import took 0.043113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Tile/Map/Ardentryst-halframp_mid_dirt_r.png
+  artifactKey: Guid(dd615f7f3ee9fc749a9009e2bd73149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-halframp_mid_dirt_r.png using Guid(dd615f7f3ee9fc749a9009e2bd73149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855aa2925fe4c97447aff670f84b954e') in 0.061095 seconds 
+  Import took 0.066131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Tile/Map/Ardentryst-ramp_mid_dirt_l.png
+  artifactKey: Guid(941498f9db668474090e08e014841607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-ramp_mid_dirt_l.png using Guid(941498f9db668474090e08e014841607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2130fc21e84f8b68ab2d75fc90c2a3b') in 0.048009 seconds 
+  Import took 0.054945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Tile/Map/Ardentryst-Shield.png
+  artifactKey: Guid(eb642564f020d284e91690c109b4c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Shield.png using Guid(eb642564f020d284e91690c109b4c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a842650b335369a60ce59cada85acf3') in 0.079405 seconds 
+  Import took 0.089056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Tile/Map/Ardentryst-R_HR2.png
+  artifactKey: Guid(87949e76c62c3a343ba23a7ef42fab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-R_HR2.png using Guid(87949e76c62c3a343ba23a7ef42fab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6e7a14d7c9cc4cb6b6dad08cbffee3') in 0.069729 seconds 
+  Import took 0.079033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tile/Map/Ardentryst-halframp_mid_dirt_l.png
+  artifactKey: Guid(7e204e1f021e0aa49ba6acb097c8d963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-halframp_mid_dirt_l.png using Guid(7e204e1f021e0aa49ba6acb097c8d963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbc2d0d23cd9fc3a7b29b1a04e8f8ab') in 0.043478 seconds 
+  Import took 0.048228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tile/Map/Ardentryst-ramp_mid_dirt_r.png
+  artifactKey: Guid(48157295d49c07545923a29ee7691d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-ramp_mid_dirt_r.png using Guid(48157295d49c07545923a29ee7691d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b005bf0e110dfb01eb81e8d7e70c0e3f') in 0.045629 seconds 
+  Import took 0.049986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Tile/Map/Ardentryst-Obelisk2.png
+  artifactKey: Guid(09d091a153bec6440bc426e85b9192de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Obelisk2.png using Guid(09d091a153bec6440bc426e85b9192de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa546cae4c0f0bb0a62ee0986ebd2e64') in 0.033508 seconds 
+  Import took 0.038637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Tile/Map/Ardentryst-L_HR1.png
+  artifactKey: Guid(570beb51941120944a00a30ecb3d170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-L_HR1.png using Guid(570beb51941120944a00a30ecb3d170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511695e5e9c86745eaa3eb2cb3a9931') in 0.028121 seconds 
+  Import took 0.035903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Tile/Map/Ardentryst-Rock.png
+  artifactKey: Guid(20aca685b5ee07e458abb9462e8c6f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Rock.png using Guid(20aca685b5ee07e458abb9462e8c6f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcea274d0544854b7cefd04655612c0e') in 0.028751 seconds 
+  Import took 0.035728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Tile/Map/Ardentryst-Lever1.png
+  artifactKey: Guid(b01036e876fd52540922cbc29a71c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Lever1.png using Guid(b01036e876fd52540922cbc29a71c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26b85719e24851117019c2b2964e335') in 0.027401 seconds 
+  Import took 0.072708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000782 seconds.
+  path: Assets/Tile/Map/Ardentryst-shrooms2.png
+  artifactKey: Guid(ffc405b8f6297e14d9a29f75623a0793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-shrooms2.png using Guid(ffc405b8f6297e14d9a29f75623a0793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24949d08e142e173c0ea534393fb97a6') in 0.044586 seconds 
+  Import took 0.056388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edgecorner_left.png
+  artifactKey: Guid(6975acad0741c58429bd0d5e38053716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edgecorner_left.png using Guid(6975acad0741c58429bd0d5e38053716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8df8d294aa60620a8279ce7fc4630a') in 0.041801 seconds 
+  Import took 0.050565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edgecorner_right.png
+  artifactKey: Guid(c9347ce7b0119c041b22896ae7b99ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edgecorner_right.png using Guid(c9347ce7b0119c041b22896ae7b99ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93252ed0c997373892a84f15004e6acf') in 0.033510 seconds 
+  Import took 0.039936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_brramp.png
+  artifactKey: Guid(5c488476892b1824890e175389a3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_brramp.png using Guid(5c488476892b1824890e175389a3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d2aadb8a72a9fda9089ee82d6c33f2') in 0.057409 seconds 
+  Import took 0.064685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_blramp.png
+  artifactKey: Guid(cefb8e3232669ce47a005c238a64503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_blramp.png using Guid(cefb8e3232669ce47a005c238a64503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59472a7f3746de7f6176373f9204fa0e') in 0.027227 seconds 
+  Import took 0.032837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edge_right.png
+  artifactKey: Guid(ff6803cd6f142c145b8109e73399a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edge_right.png using Guid(ff6803cd6f142c145b8109e73399a39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b760ca5cb51836ee6d2a3d2f1eac11') in 0.043461 seconds 
+  Import took 0.050759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Tile/Map/Ardentryst-Sign.png
+  artifactKey: Guid(c7d8312659a9dee488d6599bd56bec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Sign.png using Guid(c7d8312659a9dee488d6599bd56bec2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005c2bbe8973ab421c7a96fb9b6b4bc4') in 0.027049 seconds 
+  Import took 0.033229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edge_left.png
+  artifactKey: Guid(e5ac01afbe03fff4d93625c161cf45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edge_left.png using Guid(e5ac01afbe03fff4d93625c161cf45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c271c67c14877cf55e28de2a54bb250') in 0.028394 seconds 
+  Import took 0.034138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Tile/Map/Ardentryst-shrooms3.png
+  artifactKey: Guid(5ef5d006058c26f4fad105cf79dd9f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-shrooms3.png using Guid(5ef5d006058c26f4fad105cf79dd9f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d051196cbf1fe389ae32f627d7ee777') in 0.026726 seconds 
+  Import took 0.033675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Tile/Map/Ardentryst-shrooms1.png
+  artifactKey: Guid(c2fe60091c3b22d429b2f283efce0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-shrooms1.png using Guid(c2fe60091c3b22d429b2f283efce0167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b24a586b01678ef980d2db5a778fe0') in 0.059620 seconds 
+  Import took 0.067940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/Tile/Map/Ardentryst-grassc2.png
+  artifactKey: Guid(3ef3e458ac0fb62409369f53e639f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-grassc2.png using Guid(3ef3e458ac0fb62409369f53e639f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e450ee09a416145312cfbc3992cdcea4') in 0.080195 seconds 
+  Import took 0.097693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.550020 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edgewall_left1.png
+  artifactKey: Guid(f6a38517e6db58f408aee4fef02af7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edgewall_left1.png using Guid(f6a38517e6db58f408aee4fef02af7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b04e2e518658b8a0821bc9ed3dae6f6') in 0.064472 seconds 
+  Import took 0.073632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edgewall_left2.png
+  artifactKey: Guid(f74b4c732f01ff64e945de1d654ebf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edgewall_left2.png using Guid(f74b4c732f01ff64e945de1d654ebf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d865547d9bc1f0ac8f9dbb275df76') in 0.046077 seconds 
+  Import took 0.076037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_undercorner_join_left.png
+  artifactKey: Guid(c71381ee23eec8149abf46f54d162e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_undercorner_join_left.png using Guid(c71381ee23eec8149abf46f54d162e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da153187ac338f02cdb52cb05cd45e7') in 0.031605 seconds 
+  Import took 0.038898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_railing_right.png
+  artifactKey: Guid(aa9fb948ab27c5d47834364fef064e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_railing_right.png using Guid(aa9fb948ab27c5d47834364fef064e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b6148a14c7f669da6f43190dbd4700') in 0.028828 seconds 
+  Import took 0.035473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_tree.png
+  artifactKey: Guid(c9ee6daf63914e442bb1dd4e258fcad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_tree.png using Guid(c9ee6daf63914e442bb1dd4e258fcad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27b69042781984dc25126f2a10572d4') in 0.128599 seconds 
+  Import took 0.135770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Tile/Map/Ardentryst-treestump.png
+  artifactKey: Guid(04532393e27fad54a9682d4528dd3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-treestump.png using Guid(04532393e27fad54a9682d4528dd3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ced955881fca88fedf339fb609d201f') in 0.027793 seconds 
+  Import took 0.033191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tile/Map/Ardentryst-TreasureC_Closed.png
+  artifactKey: Guid(0ce893fc895aca440a2c3a1a561a365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-TreasureC_Closed.png using Guid(0ce893fc895aca440a2c3a1a561a365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119fd5f4d570dc918320d9c8e644705d') in 0.029527 seconds 
+  Import took 0.047345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Tile/Map/Ardentryst-Torchref2.png
+  artifactKey: Guid(269dc8c80cab7b74b8a3dd1a32ceb4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Torchref2.png using Guid(269dc8c80cab7b74b8a3dd1a32ceb4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0454f8f95a1e805594459335149234') in 0.032118 seconds 
+  Import took 0.039692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Tile/Map/Ardentryst-suit_armour.png
+  artifactKey: Guid(c865b0b2510e3fd40993c0b2242d424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-suit_armour.png using Guid(c865b0b2510e3fd40993c0b2242d424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6cfb2884027f5ad3e81b01ae1a6a56') in 0.043892 seconds 
+  Import took 0.048992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_undercorner_right.png
+  artifactKey: Guid(14d5dd4c6d27e8e448aa064e0e2aa4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_undercorner_right.png using Guid(14d5dd4c6d27e8e448aa064e0e2aa4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fba645abee7e4d3583ad2be06e1f478') in 0.034584 seconds 
+  Import took 0.039059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Tile/Map/Ardentryst-TreasureB_Closed.png
+  artifactKey: Guid(07c2699f3c4bd2e4e941227763aa2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-TreasureB_Closed.png using Guid(07c2699f3c4bd2e4e941227763aa2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5733fe23ca6c8023a40cfe3584a54872') in 0.065682 seconds 
+  Import took 0.070573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Tile/Map/Ardentryst-Torchref.png
+  artifactKey: Guid(1f7f65cf298d6fc49a7374d8952b2b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Torchref.png using Guid(1f7f65cf298d6fc49a7374d8952b2b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905a304bcc543009b6ce8f0efb45d80d') in 0.039833 seconds 
+  Import took 0.044999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_snow.png
+  artifactKey: Guid(59c3322ecf331e040a6e02f240b47ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_snow.png using Guid(59c3322ecf331e040a6e02f240b47ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3649f356890fdcd6a2ba2a910652ba2') in 0.023596 seconds 
+  Import took 0.029341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Tile/Map/Ardentryst-TreasureB_Open.png
+  artifactKey: Guid(c8f63b2aa751d7741b1ea1060c8b1d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-TreasureB_Open.png using Guid(c8f63b2aa751d7741b1ea1060c8b1d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4832600af49311d0a26581432313781') in 0.029812 seconds 
+  Import took 0.035787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Tile/Map/Ardentryst-Sword.png
+  artifactKey: Guid(de00be534ce331749b222cd0a647ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Sword.png using Guid(de00be534ce331749b222cd0a647ce97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46978ec8f5cc56faf159cf019290cc5a') in 0.029189 seconds 
+  Import took 0.036151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tile/Map/Ardentryst-Walltorch2.png
+  artifactKey: Guid(afc6ca210ee7ff54cab6290d27e945db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Walltorch2.png using Guid(afc6ca210ee7ff54cab6290d27e945db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b179bc4ded5714ffd69c973511e2f0b3') in 0.030101 seconds 
+  Import took 0.036471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Tile/Map/Ardentryst-Treasure_Closed.png
+  artifactKey: Guid(972f9c274eba7884dbb43085e0bffaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Treasure_Closed.png using Guid(972f9c274eba7884dbb43085e0bffaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a94038794d44a55b41678f53694393e') in 0.046509 seconds 
+  Import took 0.051876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Tile/Map/Ardentryst-tuft1.png
+  artifactKey: Guid(52de457e9232cdd47b0ff3725048bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-tuft1.png using Guid(52de457e9232cdd47b0ff3725048bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305da0fa980f1804ee0f947dd8b04e9f') in 0.025559 seconds 
+  Import took 0.031827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_rramp.png
+  artifactKey: Guid(5215516fc5efa7b48824330ed1e70a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_rramp.png using Guid(5215516fc5efa7b48824330ed1e70a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47f3cc252e13e79a2a2deaa70ac7634') in 0.033389 seconds 
+  Import took 0.040983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_pillartop.png
+  artifactKey: Guid(48b525094c225664f8823beb05364de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_pillartop.png using Guid(48b525094c225664f8823beb05364de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebeb44567213a437bebf0fed30641c1') in 0.029366 seconds 
+  Import took 0.035107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_stones.png
+  artifactKey: Guid(e6a7e518874e6fd4290d8838f5d434ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_stones.png using Guid(e6a7e518874e6fd4290d8838f5d434ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c6581cef566fdf86279ae5219aeb8') in 0.026944 seconds 
+  Import took 0.031445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edgewall_right2.png
+  artifactKey: Guid(f44dcf4afdfcdf149abcfae1358eae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edgewall_right2.png using Guid(f44dcf4afdfcdf149abcfae1358eae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9259ef16e772bbd023a24767bcc030') in 0.064928 seconds 
+  Import took 0.073256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Tile/Map/Ardentryst-tuft2.png
+  artifactKey: Guid(c82dc7bd79a46444a92571aab5ddc354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-tuft2.png using Guid(c82dc7bd79a46444a92571aab5ddc354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d721a6ab83519b64e93228ba271008') in 0.035357 seconds 
+  Import took 0.043125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_tree2.png
+  artifactKey: Guid(94b4a794de141f44cac6aea3859e74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_tree2.png using Guid(94b4a794de141f44cac6aea3859e74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d3410356dece98441552cc9f322356') in 0.029643 seconds 
+  Import took 0.034340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_railing1.png
+  artifactKey: Guid(e787e73c5b85cd34db06d0bc856d34c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_railing1.png using Guid(e787e73c5b85cd34db06d0bc856d34c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d6c102149671776988a306de80f0d4') in 0.027031 seconds 
+  Import took 0.033971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_pillar.png
+  artifactKey: Guid(d2d07aac2fcba67439f1b8201deb36a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_pillar.png using Guid(d2d07aac2fcba67439f1b8201deb36a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e5f51996b2866b193b791ee10d20eb') in 0.028549 seconds 
+  Import took 0.034922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_ground1.png
+  artifactKey: Guid(7aac32713fd637444b78ee1287c4fbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_ground1.png using Guid(7aac32713fd637444b78ee1287c4fbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512c1c3da47d56480b167aef1dc4dd66') in 0.025045 seconds 
+  Import took 0.030747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_lramp.png
+  artifactKey: Guid(e2bc8ade9b9262c4b9d2e16a6f0975c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_lramp.png using Guid(e2bc8ade9b9262c4b9d2e16a6f0975c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a90a23ec4477142ce806b5cab1a0f0a') in 0.028435 seconds 
+  Import took 0.034591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_railing_left.png
+  artifactKey: Guid(ab6fcdc420d70d642a8d890672157835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_railing_left.png using Guid(ab6fcdc420d70d642a8d890672157835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd181f16defc095c0bfdc96afc5b4693c') in 0.070108 seconds 
+  Import took 0.078246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_undercorner_left.png
+  artifactKey: Guid(1e667da52e8747f4baf324f6bd7da7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_undercorner_left.png using Guid(1e667da52e8747f4baf324f6bd7da7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc86af36f39ebbcf9f4974d2d0bd35b7') in 0.042468 seconds 
+  Import took 0.053087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_snow2.png
+  artifactKey: Guid(3bcc7f6dde7c3c04b8e406770efe401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_snow2.png using Guid(3bcc7f6dde7c3c04b8e406770efe401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dab0f64ade2556b47d50b6acc17004') in 0.044156 seconds 
+  Import took 0.051071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_edgewall_right1.png
+  artifactKey: Guid(145bdd976984dce49a8e2c1b89d2275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_edgewall_right1.png using Guid(145bdd976984dce49a8e2c1b89d2275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e281802b8d1c86c005ee53b402683eb3') in 0.033263 seconds 
+  Import took 0.040933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_undercorner_join_right.png
+  artifactKey: Guid(6725fe4f3a6e7604cac209c86597976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_undercorner_join_right.png using Guid(6725fe4f3a6e7604cac209c86597976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329b718d95ea183868a229fe34c603be') in 0.034189 seconds 
+  Import took 0.039428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Tile/Map/Ardentryst-Treasure_Open.png
+  artifactKey: Guid(89aeaf4237c07ac458701db371f5d105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Treasure_Open.png using Guid(89aeaf4237c07ac458701db371f5d105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf697b9addfa346f7199af204edb77') in 0.046110 seconds 
+  Import took 0.052603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Tile/Map/Ardentryst-Walltorch.png
+  artifactKey: Guid(e7deafc2fca174646a9088b3055097bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Walltorch.png using Guid(e7deafc2fca174646a9088b3055097bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d11f628698d43a7e86e49b5b8a53cad') in 0.025963 seconds 
+  Import took 0.030810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Tile/Map/Ardentryst-TreasureC_Open.png
+  artifactKey: Guid(9f92af8e4a6c3df44965e7365d02a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-TreasureC_Open.png using Guid(9f92af8e4a6c3df44965e7365d02a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4523e4271716821aeaabb6a3868ee77c') in 0.029065 seconds 
+  Import took 0.037311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Tile/Map/Ardentryst-Walltorch3.png
+  artifactKey: Guid(09084d218ea2d3545a4896b63e5ee819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Walltorch3.png using Guid(09084d218ea2d3545a4896b63e5ee819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aac63eb427984fd81c7e7c777e236a4') in 0.027595 seconds 
+  Import took 0.035093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Tile/Map/Ardentryst-TreasureC_Open.png
+  artifactKey: Guid(9f92af8e4a6c3df44965e7365d02a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-TreasureC_Open.png using Guid(9f92af8e4a6c3df44965e7365d02a012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4523e4271716821aeaabb6a3868ee77c') in 0.016961 seconds 
+  Import took 0.022391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Tile/Map/Ardentryst-Torchref3.png
+  artifactKey: Guid(499e4c8a5c24b464b991e64c1d944777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-Torchref3.png using Guid(499e4c8a5c24b464b991e64c1d944777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb6adfebbc05c9fc37b619caefded64') in 0.060994 seconds 
+  Import took 0.066031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Tile/Map/Ardentryst-snow_railing2.png
+  artifactKey: Guid(1e65abd278bf02a42965d13457bdeb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Map/Ardentryst-snow_railing2.png using Guid(1e65abd278bf02a42965d13457bdeb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f2f1ad24594e364d794f6f7e8588b') in 0.061851 seconds 
+  Import took 0.070930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.968520 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdba185202c9acee2cc2771267ac6e9a') in 0.025892 seconds 
+  Import took 0.032238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.267060 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788d9557c2bc3bdb96c64882023b175b') in 0.031705 seconds 
+  Import took 0.042009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.672788 seconds.
+  path: Assets/Tile/Tileset.png
+  artifactKey: Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/Tileset.png using Guid(1c494a2192ef276498b9c248ad28e96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b28c601625ba1ddbea41b26ad63713') in 0.041365 seconds 
+  Import took 0.048538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.584007 seconds.
+  path: Assets/Tile/grass tileset.png
+  artifactKey: Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/grass tileset.png using Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a22bf9b25d45c1e28c43a0576acb93') in 0.080660 seconds 
+  Import took 0.087568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.085288 seconds.
+  path: Assets/Tile/cave background.png
+  artifactKey: Guid(0a8582063650b35488d02c121746c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/cave background.png using Guid(0a8582063650b35488d02c121746c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd590107815593ae0868b0b47499ec6d9') in 0.041793 seconds 
+  Import took 0.052539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.781967 seconds.
+  path: Assets/Tile/grass tileset.png
+  artifactKey: Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/grass tileset.png using Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5883cb185a888d1a41ba3f158344e32') in 0.054195 seconds 
+  Import took 0.076663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.879320 seconds.
+  path: Assets/Tile/grass tileset.png
+  artifactKey: Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/grass tileset.png using Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d0f11efea49afc71a5a9116900190') in 0.167577 seconds 
+  Import took 0.176458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1906.674624 seconds.
+  path: Assets/Tile/grass tileset.png
+  artifactKey: Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile/grass tileset.png using Guid(2bbd2d528328e81488c9d1974b307885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcfa77eec1818fa947fb86aaf8f3665') in 0.164265 seconds 
+  Import took 0.170236 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
