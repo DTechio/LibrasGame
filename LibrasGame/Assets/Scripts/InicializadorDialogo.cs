@@ -17,7 +17,7 @@ public class InicializadorDialogo : MonoBehaviour
     private Jogador _jogador;
 
     [SerializeField]
-    private bool _deveChecarInventario;
+    private bool _deveChecar;
 
     [SerializeField]
     private string _nomeDoItem;
@@ -28,7 +28,7 @@ public class InicializadorDialogo : MonoBehaviour
         if (_gerenciador == null)
             return;
 
-        if (_deveChecarInventario)
+        if (_deveChecar)
         {
             if (_jogador.TemItem(_nomeDoItem))
                 _gerenciador.Inicializa(_dialogoComCondicao);
