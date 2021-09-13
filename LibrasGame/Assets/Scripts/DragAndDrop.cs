@@ -8,6 +8,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     [SerializeField] private RectTransform _transform;
     [SerializeField] private Canvas _canvas;
     [SerializeField] private CanvasGroup _canvasGroup;
+    public int id;
+
 
     public void OnBeginDrag(PointerEventData eventData)
     {
