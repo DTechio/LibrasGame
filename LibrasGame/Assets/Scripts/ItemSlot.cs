@@ -13,6 +13,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         if (eventData.pointerDrag.GetComponent<DragAndDrop>().id == id)
         {
             Debug.Log("Correto");
+            GameObject.Find("GerenciadorDePontos").GetComponent<PuzzleConcluido>().AddPoints();
         }
         else
         {
