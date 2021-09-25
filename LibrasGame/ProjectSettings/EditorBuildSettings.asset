@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Fase2Padrao.unity
+    guid: 79cf958611acfc445927337ab7ca3008
+  - enabled: 1
     path: Assets/Scenes/Fase2.unity
     guid: b259899a453f2e045b858b70c7cd14ba
   m_configObjects: {}

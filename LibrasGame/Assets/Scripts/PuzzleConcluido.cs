@@ -1,30 +1,47 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PuzzleConcluido : MonoBehaviour
 {
     [SerializeField] private GameObject _slots;
-    private int pointsToWin;
-    private int currentPoints;
+    [SerializeField] private GameObject _buttonEnviar;
+    [SerializeField] private GameObject _buttonNext;
+    [SerializeField] private GameObject _gestoBook;
+
+
+    private int _pointsToWin;
+    private int _currentPoints;
+
     void Start()
     {
-        pointsToWin = _slots.transform.childCount;
-        Debug.Log(pointsToWin);
+        Button btn = _buttonNext.GetComponent<Button>();
+        btn.onClick.AddListener(LoadSceneOnClick);
+
+        _pointsToWin = _slots.transform.childCount;
+        Debug.Log(_pointsToWin);
     }
 
     void Update()
     {
-        if (currentPoints >= pointsToWin)
+        if (_currentPoints >= _pointsToWin)
         {
-            Debug.Log("WIN");
-            SceneManager.LoadScene(1);
+            //Debug.Log("WIN");
+            _buttonEnviar.SetActive(true);
+            _gestoBook.SetActive(true);
         }
+        
     }
 
     public void AddPoints()
     {
-        currentPoints++;
+        _currentPoints++;
+    }
+
+    void LoadSceneOnClick()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
