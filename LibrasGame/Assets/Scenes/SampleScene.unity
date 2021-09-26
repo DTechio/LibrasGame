@@ -452,6 +452,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264282229}
   m_CullTransparentMesh: 1
+--- !u!1 &267878655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6472675247316352660, guid: be9758748fd0ff641a31a21e73199823, type: 3}
+  m_PrefabInstance: {fileID: 1384683389561467829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &311650298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 32
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -13388,6 +13393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puzzle1
       objectReference: {fileID: 0}
+    - target: {fileID: 5618984922370463280, guid: 8a583838dfa7696409d668d965741b03, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5618984922370463281, guid: 8a583838dfa7696409d668d965741b03, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -13808,6 +13817,10 @@ PrefabInstance:
       propertyPath: _slots
       value: 
       objectReference: {fileID: 887213984}
+    - target: {fileID: 7971352135613992431, guid: 5e59659eacbcfbc48bed7c820a041b31, type: 3}
+      propertyPath: _gestoBook
+      value: 
+      objectReference: {fileID: 267878655}
     - target: {fileID: 7971352135613992431, guid: 5e59659eacbcfbc48bed7c820a041b31, type: 3}
       propertyPath: _buttonNext
       value: 
