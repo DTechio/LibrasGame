@@ -40,6 +40,5 @@ public class InicializadorDialogo : MonoBehaviour
         {
             _gerenciador.Inicializa(_dialogo);
         }
-
     }
 }

@@ -13,8 +13,8 @@ public class NextLevel : MonoBehaviour
         Button btn = NextButton.GetComponent<Button>();
         btn.onClick.AddListener(LoadSceneOnClick);
     }
-    void LoadSceneOnClick()
+    public void LoadSceneOnClick()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

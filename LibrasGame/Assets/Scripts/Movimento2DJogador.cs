@@ -42,7 +42,6 @@ public class Movimento2DJogador : MonoBehaviour
             _animator.SetBool("Pulando", true);
 
         }
-
     }
 
     private void FixedUpdate()
